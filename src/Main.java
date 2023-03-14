@@ -9,7 +9,19 @@ public class Main {
         int c = 5;
         int Sum = a + b;
         System.out.println(Sum);
+
+
         // Print what is Sum
         System.out.println("Sum is "+ Sum);
+
+
+        // Using Basic2 class
+        Basic2 B=new Basic2();
+        B.ValidateHeader();
+
+
+        // Is there a $ sign in the string?
+        String str="Payment $100 paid";
+        System.out.println(str.charAt(8));
     }
 }
